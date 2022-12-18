@@ -1,0 +1,23 @@
+.navbar-container{
+	background: #F1E153;
+	height: 50px;
+	display: flex; 
+	align-items: center;
+	.navbar-wrapper{
+		width: 100%;
+		padding: 0 32px;
+		display: flex;
+		justify-content: space-between;
+		.navbar-left{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.name{
+				margin-left:8px;
+				font-weight: 700;
+				color: #303030;
+				font-size: 20px;		
+			} 
+		}
+	}
+}
